@@ -1,0 +1,13 @@
+doctype html
+html(lang="en")
+  head
+    include partials/head.pug
+  body
+    include partials/nav.pug
+    div(class="container-fluid")
+      div(class="jumbotron my-4")
+        div(class="container")
+          h1 PUG page template :)
+          p Default page paragraph
+      div#content
+        pre !{content}
